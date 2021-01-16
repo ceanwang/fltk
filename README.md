@@ -19,14 +19,22 @@ A6. IF not installed cmake, please install cmake.
 
 A7. AT the lower left corner of Windows desktop, in the search area where 'Type here to search' is shown, type in cmd, then press 'Enter' key to open Command Prompt Window. switch to fltk folder, run these commands
 
-MKDIR build_MinGW
-CD build_MinGW
-cmake -DCMAKE_MAKE_PROGRAM=make -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=d:/3rd_MinGW -G "MinGW Makefiles" ..
+    MKDIR build_MinGW
 
-A8. Run make
+    CD build_MinGW
+
+    cmake -DCMAKE_MAKE_PROGRAM=make -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=d:/3rd_MinGW -G "MinGW Makefiles" ..
+
+A8. Run 
+
+    make
+    
     Remeber to do step A5, otherwise you will get an error saying 'make is not found'.
     
-A9. Run make install
+A9. Run 
+
+    make install
+
 A10. You can compile your own fltk application code now
 
 
