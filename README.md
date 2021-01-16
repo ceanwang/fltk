@@ -6,9 +6,13 @@ Build fltk on Window 10
 
 A1. Download MinGW-w64 - for 32 and 64 bit Windows from here: https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/
 Under MinGW-W64 GCC-8.1.0, choose x86_64-posix-sjlj. As a result, file x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0.7z is downloaded.
+
 A2. Unzip with 7-zip
+
 A3. After extracting, copy the mingw64 folder to C:\
+
 A4. Add C:\mingw64\bin to the Path of the System Environment Variables.
+
 A5. Browse to C:\mingw64\bin folder, make a copy of mingw32-make.exe and rename the copy as make.exe
 
 A6. IF not installed cmake, please install cmake.
