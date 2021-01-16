@@ -43,6 +43,7 @@ A10. You can compile your own fltk application code now
 #B Build with Fortran, C and C++ for Windows
 
 B1. Download Fortran, C and C++ for Windows from http://www.equation.com/servlet/equation.cmd?fa=fortran
+    
     Under DOWNLOAD: THREE LAST RELEASES section, choose one to download. Here we use gcc-10.2.0-
 64.exe
 
