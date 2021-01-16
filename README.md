@@ -26,13 +26,13 @@ A7. AT the lower left corner of Windows desktop, in the search area where 'Type 
 
     cmake -DCMAKE_MAKE_PROGRAM=make -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=d:/3rd_MinGW -G "MinGW Makefiles" ..
 
-A8. Run 
+A8. Run: 
 
     make
     
-    Remeber to do step A5, otherwise you will get an error saying 'make is not found'.
+Remeber to do step A5, otherwise you will get an error saying 'make is not found'.
     
-A9. Run 
+A9. Run: 
 
     make install
 
