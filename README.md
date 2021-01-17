@@ -47,6 +47,9 @@ B1. Download Fortran, C and C++ for Windows from http://www.equation.com/servlet
 Under DOWNLOAD: THREE LAST RELEASES section, choose one to download. Here we use gcc-10.2.0-
 64.exe
 
+#C Build with MSYS2/MinGW
+
+MSYS2 provide two systems. You could use its toolchain under usr/bin to build your project like under a Linux system. Then you could run your program  under Windows with the support of the toolchain under mingw64/bin.
 
 
 
