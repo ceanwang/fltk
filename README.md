@@ -40,7 +40,7 @@ A10. You can compile your own fltk application code now
 
 
 
-#B Build with Fortran, C and C++ for Windows
+#B Build with Fortran, C and C++ for Windows (EQ-GNU c/C++)
 
 B1. Download Fortran, C and C++ for Windows from http://www.equation.com/servlet/equation.cmd?fa=fortran
     
